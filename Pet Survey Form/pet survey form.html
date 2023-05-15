@@ -1,0 +1,56 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header class="header">
+  <h1 id="title">Jake's Survey Form</h1>
+  <p id="description">Fill in the form with details of your first pet! I promise this isn't to steal your credit card info...</p>
+</header> 
+
+<form id="survey-form">
+  
+  <div id=form-section>
+    <label id="name-label" for="name">Pets Name:</label>
+    <input type="text" id="name" placeholder="Name" required>
+  </div>
+  
+  <div id=form-section>
+    <label id="email-label" for="email">Your Email:</label>
+    <input type="email" id="email" placeholder="Email" required>
+  </div>
+  
+  <div id=form-section>
+    <label id="number-label" for="age">Pets Age (Min: 0, Max: 50):</label>
+    <input type="number" id="number" min="0" max="50" placeholder="Age" required>
+  </div>
+
+  <div id=form-section>
+    <p>Select the size of your pet</p>
+    <label><input id="small" type="radio" name="small-med-large"  value="small">Small</label>
+    <label><input id="medium" type="radio" name="small-med-large"  value="medium">Medium</label>
+    <label><input id="large" type="radio" name="small-med-large"  value="large">Large</label>
+  </div>
+  
+    <div id=form-section>
+    <p>Select traits of your pet:</p>
+    <label for="hyper"><input id="hyper" type="checkbox" name="personality" value="hyper"> Hyper</label>
+    <label for="calm"><input id="calm" type="checkbox" name="personality" value="calm"> Calm</label>
+    <label for="smart"><input id="smart" type="checkbox" name="personality" value="smart"> Smart</label>
+    <label for="dumb"><input id="dumb" type="checkbox" name="personality" value="Dumb">Dumb</label>
+  </div>
+     
+  <div id=form-section>
+    <label id="gender-label" for="gender">Pets Gender:</label>
+    <select type="dropdown" id="dropdown" required>
+    <option disabled selected value>Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </div>
+    
+  <div id=form-section>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Type additional info here..."></textarea>
+  </div>
+  
+  <div id=form-section>
+    <button type="submit" id="submit">Submit</button>
+  </div>
+    
+</form>

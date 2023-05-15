@@ -1,0 +1,60 @@
+/* CSS heavily borrowed from example page */
+
+body {
+    background: white;
+    font-family: monospace, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  main {
+    background: #dedede;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background-color: #e6e6e6;
+    width: 95%;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    display: table;
+    margin: auto;
+    text-align: center;
+    border: 0;
+  }
+  
+  #tribute-info {
+    background-color: #e6e6e6;
+    width: 95%;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+  }
+  
+  
+  

@@ -1,0 +1,37 @@
+/* CSS heavily borrowed from example page */
+
+body {
+    font-family: verdana, arial; 
+    font-size: 1rem;
+    background-color: #b8b4b4;
+    text-align: center;
+  }
+  
+  #form-section {
+    display: block;
+    align: center
+    width: 100%;
+    background-color: #8f8d8d;
+  }
+  
+  form {
+    display: inline-block;
+    width: 95%;
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .input-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 50px;
+    width: 50%;
+    resize: vertical;
+  }
